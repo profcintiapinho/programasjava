@@ -15,13 +15,13 @@ public class VelocidadeMedia {
 
    
     public static void main(String[] args) {
-       double per, hora, min,tempo, velmedia;
+       double percurso, hora, min,tempo, velmedia;
        
        //entrada
        Scanner entrada = new Scanner(System.in);
        
         System.out.println("Digite o percurso:");
-        per =entrada.nextDouble();
+        percurso =entrada.nextDouble();
         System.out.println("Digite a hora sem os minutos:");
         hora =entrada.nextDouble();
         System.out.println("Digite o minuto:");
@@ -30,7 +30,7 @@ public class VelocidadeMedia {
         //processamnto
         tempo = (min/60)+hora;
         
-        velmedia = per/tempo;
+        velmedia = percurso/tempo;
         
         
         // saida
